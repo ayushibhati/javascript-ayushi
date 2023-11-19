@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style>
+    button{
+        background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        height: 50px;
+        width: 80px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 161px;
+        margin-left: 161px;
+        transition: background-color 0.15s,
+        color 0.15s;
+    }
+    button:hover {
+    background-color: rgb(41, 118, 211);
+    color: white;
+    }
+    button:active {
+    opacity: 0.7;
+    }
+    .text{
+        color:rgb(41, 118, 211);
+        text-align: center;
+    }
+</style>
+<head>
+    <meta charset="utf-8">
+    <title>Rock Paper Scissors Tutorial</title>
+  </head>
+  <body>
+
+    <h2 class="text">Computer Choice: <span id="computer-choice"></span></h2>
+    <h2 class="text">Your Choice: <span id="user-choice"></span></h2>
+    <h2 class="text">Result: <span id="result"></span></h2>
+
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>
